@@ -46,5 +46,5 @@ add_subdirectory(parameter_validators)
 # [ Installation ]
 include(GNUInstallDirs)
 install(TARGETS bldcmmon RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
-install(FILES bldcmmon.cfg DESTINATION ${CMAKE_INSTALL_DOCDIR}/bldcm RENAME bldcmmon.sample.cfg)
+install(FILES bldcmmon.cfg DESTINATION ${CMAKE_INSTALL_DOCDIR} RENAME bldcmmon.sample.cfg)
 
